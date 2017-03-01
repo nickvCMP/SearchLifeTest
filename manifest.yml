@@ -1,0 +1,10 @@
+applications:
+- path: VaadinStarterApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: SearchLife
+  host: search-life
+  disk_quota: 1024M
+  services:
+  - SearchLife-elephantsql
